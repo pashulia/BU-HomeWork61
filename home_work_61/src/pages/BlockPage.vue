@@ -1,11 +1,10 @@
 <template>
-  <navbar></navbar>
-  <router-view></router-view>
+    <block-item :blockNumberOrHash="$route.params.blockNumberOrHash"/>
 </template>
 
 <script>
 export default {
-
+    
 }
 </script>
 
