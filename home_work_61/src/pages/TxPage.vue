@@ -1,11 +1,10 @@
 <template>
-  <navbar></navbar>
-  <router-view></router-view>
+    <tx-item :transactionHash="$route.params.transactionHash"/>
 </template>
 
 <script>
 export default {
-
+    
 }
 </script>
 
